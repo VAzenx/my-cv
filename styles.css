@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap');
+
+body{
+    font-family: "Noto Sans Thai", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.contact{
+    font-size: 16px;
+    line-height: 8px; 
+}
+
+.cv-container {
+    width: 210mm;
+    height: 297mm;
+    background: white;
+    padding: 20mm;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid black;
+}
+
+
+hr{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(87, 165, 255);
+}
+
+.con{
+    list-style-type: none; /* กำจัดจุดหน้า */
+    padding-left: 10; /* ลบระยะห่างซ้าย */
+    text-decoration: none; /* กำจัดเส้นขีดใต้ */
+    color: #ff9800; /* เปลี่ยนสีลิงก์ */
+}
+
+.con:hover{
+    color: #e68900;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.skills, .education {
+    text-align: left;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px;
+    background: #ff9800;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: #e68900;
+}
